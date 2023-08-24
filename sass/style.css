@@ -104,13 +104,6 @@ body {
   position: relative;
 }
 
-.image-section img:hover {
-  transform: scale(1.1);
-  transition-duration: 4s;
-  transition-property: all;
-  cursor: pointer;
-}
-
 .image-section img {
   width: 100%;
 }
@@ -195,7 +188,7 @@ body {
 
 .serve img:hover {
   transform: scale(1.1);
-  transition: all 2s linear 0s;
+  transition: all 1s linear 0s;
 }
 
 .three-section {
@@ -249,13 +242,14 @@ body {
   text-align: right;
   margin: 7rem 0;
 }
-.scheduling-img img:hover{
-  transform: scale(1.2);
-  transition: all 1s ease-in 200ms;
-}
 
 .scheduling-img img {
   width: 95%;
+}
+
+.scheduling-img:hover {
+  transform: scale(1.1);
+  transition: 1s linear;
 }
 
 .steph {
@@ -506,4 +500,4 @@ body {
     top: 19rem;
     left: 1rem;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

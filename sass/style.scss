@@ -93,13 +93,7 @@ body{
 .image-section {
    position: relative;
 }
-.image-section img:hover {
-    transform: scale(1.1);
-    transition-duration: 4s;
-    transition-property: all;
-    cursor: pointer;
-    
- }
+
 .image-section img{
     width: 100%;
 }
@@ -174,7 +168,7 @@ top:29rem;
 }
 .serve img:hover{
      transform: scale(1.1);
-     transition:all 2s linear 0s;
+     transition:all 1s linear 0s;
 }
 
 .three-section{
@@ -226,6 +220,11 @@ top:29rem;
 .scheduling-img img{
     width: 95%;
 }
+   .scheduling-img:hover{
+    transform: scale(1.1);
+    transition: 1s linear;
+   }
+ 
 .steph{
     margin-top: 3rem;
 }
